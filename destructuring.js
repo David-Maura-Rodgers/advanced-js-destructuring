@@ -11,6 +11,7 @@ let ages = [30, 26, 27];
 let [john, mary, joe] = ages;
 console.log(john, mary, joe);
 
+
 // Destructuring objects
 let jobs = {
     mike: 'desginer',
@@ -20,6 +21,7 @@ let jobs = {
 
 let { mike, jill, alicia } = jobs;
 console.log(mike, jill, alicia);
+
 
 // Destructuring subsets
 let languages = ['english', 'french', 'spanish', 'german', 'japanese'];
@@ -38,6 +40,7 @@ let languages2 = {
 
 let { firstLanguage, thirdLanguage } = languages2;
 console.log(firstLanguage, thirdLanguage);
+
 
 // Using rest parameter syntax
 let fruits = ['apple', 'orange', 'banana', 'peach','cherry'];

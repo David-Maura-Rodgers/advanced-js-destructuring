@@ -1,3 +1,8 @@
+/**
+ * To run this file in Gitpod, use the 
+ * command node students-array-destructuring.js in the terminal
+ */
+
 let students = [
     {
         name: 'Emily',
